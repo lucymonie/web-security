@@ -1,9 +1,22 @@
-# web-security
+# Web security
 A readme on web security issues
 
-### What's built into the browser: same-origin policy
-- Explain what it is and what it can do
-- Also a bit about CORS
+## What's built into the browser: same-origin policy
+- is built into modern browsers
+- provides a barrier between pages and scripts hosted on different domains
+- permits unrestricted interactions between pages served as part of the same site
+
+Allowed under same-origin policy:
+- Cross-origin writes
+  - links
+  - redirects
+  - form submissions
+- Cross-origin embedding
+  - embed scripts, images, CSS etc from other sites
+
+To enable more complex interactions across domains, there is CORS
+- Cross-origin resource sharing (CORS) is a standard for accessing web resources on different domains.
+- 
 
 ### System architecture level
 
