@@ -18,6 +18,7 @@ Minimise scope
 
 Log all user actions  
 - All actions by any employee or other user must be logged  
+
 Handle errors   
 - Handle errors: visible errors could provide a malicious user information about the configuration of the system
 
