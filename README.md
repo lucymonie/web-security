@@ -18,6 +18,7 @@ A readme on web security issues
 - XMLHttpRequests initially followed same-origin policy: could only make HTTP requests to its own domain
 - to enrich the content of web applications, browser vendors made it possible to make some cross-domain requests
 
+## Security design
 ### System architecture level
 Read more about this [here](https://msdn.microsoft.com/en-gb/library/ee658124.aspx)
 
@@ -82,7 +83,7 @@ Other notes
 - In addition, it can request the TLS certificate of the destination to ensure that the server is connecting with a trusted api via a secure connection
 - Can also be configured to inspect the contents of the data leaving the network to ensure that it's not sensitive, but this can make the system more vulnerable to attack as personal details an auth tokens are available at the proxy
 
-[source]((https://gdstechnology.blog.gov.uk/2017/01/03/a-whitelisting-approach-for-cloud-apis/))
+[source](https://gdstechnology.blog.gov.uk/2017/01/03/a-whitelisting-approach-for-cloud-apis/)
 
 **Open source**
 - GDS aims to open source all code - up to a point
